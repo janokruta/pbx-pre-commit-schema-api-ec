@@ -1,0 +1,5 @@
+- id: schema-api-ec-changed
+  name: check if a schema for the actual API EC is generated
+  description: 'Enforce that API EC schemas are up-to-date'
+  entry: python pbx/pbxapps/docs/management/pre_commit_scripts/schema_api_ec_changed.py
+  language: system
