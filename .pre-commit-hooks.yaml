@@ -3,4 +3,4 @@
   description: 'Enforce that API EC schemas are up-to-date'
   entry: python pbx/pbxapps/docs/management/pre_commit_scripts/schema_api_ec_changed.py
   language: system
-  files: \.py$
+  files: '(.*\/pbxapps\/api\/.*|$)'
